@@ -1,0 +1,25 @@
+
+** applicaton.properties
+
+== spring boot common application properties ==
+== [ https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html ] ==
+
+- change properties
+
+-- change server port to port 3000 with properties file 
+-- create a file <applicaton.properties> in folder <src/main/resources>
+
+server.port=3000
+
+
+
+
+** spring data JPA  -
+ 
+== JPA - Java Persistence API
+
+== JPA do ORM (Object Relational Mapping) when connecting to relational DataBase (tables, fields...).
+   query <--> object instance
+   CLASS <---> TABLE
+	
+	
